@@ -41,7 +41,7 @@ while (i < numjugadas) {
 if (jugador > maquina) {
     alert("Resultado FINAL: Felicidades! Ganaste la Partida= " + jugador + " a " + maquina);
 } else if (jugador < maquina) {
-    alert("Perdiste la Partida! contra la maquina = " + jugador + " a " + maquina);
+    alert("Resultado FINAL: Perdiste la Partida! contra la maquina = " + jugador + " a " + maquina);
 } else if (jugador == maquina) {
     alert("Resultado FINAL: Empataste! contra la maquina = " + jugador + " a " + maquina);
 }
